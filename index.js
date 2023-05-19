@@ -5,8 +5,7 @@ const bodyParser = require('body-parser');
 require('dotenv').config({ path: 'variables.env'});
 
 
-// carpeta publica
-app.use(express.static('uploads'));
+
 
 // Cors permite que un cliente se conecta a otro servidor para el intercambio de recursos
 
@@ -25,6 +24,9 @@ mongoose.connect(process.env.DB_URL, console.log('DATABSE CONNECTADO...'), {
 
 // crear el servidor 
 const app = express();
+
+// carpeta publica
+app.use(express.static('uploads'));
 
 // habilitar bodyparser
 app.use(bodyParser.json());
