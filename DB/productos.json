@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "6466c3b5660a346ff2fa1cdf"
+  },
+  "nombre": "funda de sal",
+  "precio": 20,
+  "imagen": "vOgkaHgXX.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6466c3f7660a346ff2fa1ce4"
+  },
+  "nombre": "frasco de sal molida",
+  "precio": 10,
+  "imagen": "rasOgv6gx.png",
+  "__v": 0
+}]

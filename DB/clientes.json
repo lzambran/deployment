@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "6466c3b0660a346ff2fa1cdd"
+  },
+  "nombre": "Luis",
+  "apellido": "Zambrano",
+  "empresa": "Asoprosal",
+  "email": "luis@gmail.com",
+  "telefono": "0978716971",
+  "__v": 0
+}]

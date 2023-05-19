@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6466c452660a346ff2fa2783"
+  },
+  "cliente": {
+    "$oid": "6466c3b0660a346ff2fa1cdd"
+  },
+  "pedido": [
+    {
+      "producto": {
+        "$oid": "6466c3f7660a346ff2fa1ce4"
+      },
+      "cantidad": 2,
+      "_id": {
+        "$oid": "6466c3f7660a346ff2fa1ce4"
+      }
+    }
+  ],
+  "total": 20,
+  "__v": 0
+}]
